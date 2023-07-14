@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS RESET */
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+    background-color: #000;
+    color: #fff;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+nav{
+    padding-top: 40px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    width: 306px;
+}
+nav ul li.contactNav{
+    width: 196px;
+}
+nav a{
+    color: #D1D1D1;
+}
+.banner{
+    padding: 72px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myself{
+}
+.myself h1,h2{
+    width: 636px;
+}
+.myself h1{
+    font-size: 128px;
+    color: #00FFA3;
+    text-align: right;
+}
+.myself h2{
+    font-size: 64px;
+}
+.intro-FP{
+    padding: 160px 0;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+.introContent{
+    width: 526px;
+}
+.introContent h3{
+    font-size: 64px;
+    margin-bottom: 36px;
+}
+.introContent p{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.introsvg{
+    width: 196px;
+    background: linear-gradient(to bottom right, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 50%) top right / 50% 50% no-repeat;
+}
+.about-FP{
+    background-color: #fff;
+    color: #000;
+    padding: 160px 0;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skillCard{
+    width: 636px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skillCard li{
+    width: 306px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+}
+.skillCard li p{
+    font-size: 20px;
+}
+.aboutContent{
+    width: 526px;
+}
+.aboutContent h4{
+    font-size: 64px;
+    margin-bottom: 36px;
+}
+.aboutContent p{
+    font-size: 24px;
+}
+.contact-FP{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+}
+.contactTitle{
+    width: 657px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactTitle h3{
+    width: 541px;
+    font-size: 64px;
+}
+.contact ul{
+    width: 526px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact ul li{
+    width: 162px;
+}
+.contact a{
+    display: block;
+}
+.project-FP{
+    padding: 160px 0;
+    background-color: #fff;
+}
+.project-FP h4{
+    width: 746px;
+    font-size: 64px;
+    color: #000;
+    margin-left: auto;
+}
+.projectInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.rightside{
+    width: 856px;
+}
+.caption{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.caption p{
+    width: 636px;
+    color: #000;
+}
+.caption p a{
+    width: 185px;
+    display: block;
+    padding: 12px 24px;
+    margin-top: 76px;
+    margin-top: 76px;
+    border-radius: 32px;
+    background: #000;
+    color: #fff;
+}
+.button-img{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    padding: 40px 0;
+}
+footer h5{
+    text-align: center;
+}
+a:hover{
+    color: lightblue;
+}
+a:active{
+    color: greenyellow
+}
