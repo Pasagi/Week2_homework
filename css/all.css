@@ -77,6 +77,7 @@ nav ul{
 }
 nav ul li{
     width: 306px;
+    color: #D1D1D1;
 }
 nav ul li.contactNav{
     width: 196px;
@@ -100,6 +101,24 @@ nav a{
 }
 .myself h2{
     font-size: 64px;
+}
+.contactBtn{
+    font-size: 16px;
+    display: block;
+    width: 214px;
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 32px;
+    background: #FFF;
+    margin-left: auto;
+    line-height: 1;
+}
+.contactBtn svg{
+    vertical-align: middle;
+}
+.contactBtn:hover{
+    color: #000;
+    background: lightgrey;
 }
 .intro-FP{
     padding: 160px 0;
@@ -143,18 +162,19 @@ nav a{
 .skillCard li{
     width: 306px;
     border: 1px solid #E3E3E3;
-    padding: 16px;
+    padding: 15px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
     margin-bottom: 24px;
+    color: #15161D;
 }
-.skillCard li p{
+.skillCard li h4,h5{
     font-size: 20px;
     margin-bottom: 4px;
 }
 .aboutContent{
     width: 526px;
 }
-.aboutContent h4{
+.aboutContent h3{
     font-size: 64px;
     margin-bottom: 36px;
 }
@@ -192,11 +212,16 @@ nav a{
 .contact a{
     display: block;
 }
+.contact a:hover{
+    border-radius: 40px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 .project-FP{
     padding: 160px 0;
     background-color: #fff;
 }
-.project-FP h4{
+.project-FP h3{
     width: 746px;
     font-size: 64px;
     color: #000;
@@ -215,6 +240,10 @@ nav a{
     justify-content: space-between;
     margin-bottom: 28px;
 }
+.captionContent{
+    display: flex;
+    flex-direction: column;
+}
 .captionContent p{
     width: 636px;
     color: #000;
@@ -223,7 +252,7 @@ nav a{
     width: 185px;
     display: block;
     padding: 12px 24px;
-    margin-top: 76px;
+    margin-top: auto;
     border-radius: 32px;
     background: #000;
     color: #fff;
